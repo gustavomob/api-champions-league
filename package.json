@@ -3,10 +3,28 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start:dev": "node src/server.ts"
+    "dist": "tsup src",
+    "start:dev": "ts-node src/server.ts",
+    "start:watch": "tsx watch src/server.ts",
+    "start:dist": "npm run dist && node dist/src/index.js"
   },
-  "keywords": ["node", "express"],
+  "keywords": [
+    "node",
+    "express"
+  ],
   "author": "Gustavo Souza",
   "license": "ISC",
-  "description": "API da Champions League com Node.js e Express"
+  "description": "API da Champions League com Node.js e Express",
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "http-status-codes": "^2.3.0"
+  }
 }

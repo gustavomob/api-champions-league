@@ -4,11 +4,11 @@
 ### Rotas:
 
 ## Stacks
-- [Node]()
-- [Typescript]()
-- [Express]()
-- [Dotenv]()
-- [Http Status Code]()
+- [Node](https://nodejs.org/docs/latest/api/)
+- [Typescript](https://www.typescriptlang.org/docs/)
+- [Express](https://www.npmjs.com/package/express)
+- [Dotenv](https://www.npmjs.com/package/dotenv)
+- [Http Status Code](https://www.npmjs.com/package/http-status-codes)
 
 ## Como utilizar:
 

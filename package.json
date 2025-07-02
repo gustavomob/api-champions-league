@@ -1,0 +1,12 @@
+{
+  "name": "api-champions-league",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "node src/server.ts"
+  },
+  "keywords": ["node", "express"],
+  "author": "Gustavo Souza",
+  "license": "ISC",
+  "description": "API da Champions League com Node.js e Express"
+}

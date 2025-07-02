@@ -6,6 +6,6 @@ export function createApp() {
 const app = express()
 app.use(json())
 
-app.get("/", getPlayer )
+app.get("/api", getPlayer )
 return app
 }

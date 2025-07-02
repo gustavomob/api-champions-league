@@ -4,6 +4,6 @@ import { getPlayer } from './controlellers';
 
 export const router = Router();
 
-router.get("/", getPlayer);
+router.get("/players", getPlayer);
 
 

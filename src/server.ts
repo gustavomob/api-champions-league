@@ -1,4 +1,3 @@
-// src/server.ts
 import dotenv from 'dotenv';
 import express, { json } from 'express';
 import { router } from './routes';

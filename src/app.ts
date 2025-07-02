@@ -1,5 +1,5 @@
 import express, {json} from 'express'
-import { getPlayer } from './controlellers'
+import { getPlayer } from './controllers/players-controller'
 
 export function createApp() {
 const app = express()

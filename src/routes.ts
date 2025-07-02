@@ -1,6 +1,5 @@
-// src/routes.ts
 import { Router } from 'express';
-import { getPlayer } from './controlellers';
+import { getPlayer } from './controlellers/players-controller';
 
 export const router = Router();
 

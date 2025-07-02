@@ -1,5 +1,5 @@
 import { Request, Response } from 'express'
-import { getPlayerService } from '../services'
+import { getPlayerService } from '../services/players-service'
 
 export const getPlayer = async (req: Request, res: Response) => {
   const result = await getPlayerService()

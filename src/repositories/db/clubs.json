@@ -1,0 +1,58 @@
+ 
+[
+  {
+    "id": 1,
+    "name": "Real Madrid",
+    "country": "Spain",
+    "city": "Madrid",
+    "stadium": "Santiago Bernabéu",
+    "founded": 1902,
+    "coach": "Carlo Ancelotti",
+    "championsLeagueTitles": 15,
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg"
+  },
+  {
+    "id": 2,
+    "name": "Manchester City",
+    "country": "England",
+    "city": "Manchester",
+    "stadium": "Etihad Stadium",
+    "founded": 1880,
+    "coach": "Pep Guardiola",
+    "championsLeagueTitles": 1,
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg"
+  },
+  {
+    "id": 3,
+    "name": "Bayern Munich",
+    "country": "Germany",
+    "city": "Munich",
+    "stadium": "Allianz Arena",
+    "founded": 1900,
+    "coach": "Vincent Kompany",
+    "championsLeagueTitles": 6,
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/en/1/1f/FC_Bayern_München_logo_%282017%29.svg"
+  },
+  {
+    "id": 4,
+    "name": "Paris Saint-Germain",
+    "country": "France",
+    "city": "Paris",
+    "stadium": "Parc des Princes",
+    "founded": 1970,
+    "coach": "Luis Enrique",
+    "championsLeagueTitles": 0,
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/en/a/a7/Paris_Saint-Germain_F.C..svg"
+  },
+  {
+    "id": 5,
+    "name": "AC Milan",
+    "country": "Italy",
+    "city": "Milan",
+    "stadium": "San Siro",
+    "founded": 1899,
+    "coach": "Paulo Fonseca",
+    "championsLeagueTitles": 7,
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Logo_of_AC_Milan.svg"
+  }
+]

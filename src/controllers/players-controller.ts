@@ -4,7 +4,9 @@ import {
   getPlayerService, 
   postPlayerService,
   deletePlayerService,
+  updatePlayerService,
 } from '../services/players-service'
+import { StaticsModel } from '../models/statics-model'
 
 export const getPlayerController = async (req: Request, res: Response) => {
   const httpResponse = await getPlayerService()
@@ -28,5 +30,12 @@ export const postPlayerController = async (req: Request, res: Response) => {
 export const deletePlayerController = async (req: Request, res: Response) => {
   const id = parseInt(req.params.id)
   const httpResponse = await deletePlayerService(id);
+  res.status(httpResponse.status).json(httpResponse.data)
+}
+
+export const updatePlayerController = async (req: Request, res:Response) => {
+  const id = parseInt(req.params.id)
+  const bodyValue: StaticsModel = req.body
+  const httpResponse = await updatePlayerService(id, bodyValue);
   res.status(httpResponse.status).json(httpResponse.data)
 }

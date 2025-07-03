@@ -7,10 +7,7 @@ import {
   updatePlayerController
 } from './controllers/players-controller'
 
-import { 
-  // getClubByIdController,
-  // deleteClubController,
-  // updateClubController,
+import {   
   postClubController,
   getClubController,
 

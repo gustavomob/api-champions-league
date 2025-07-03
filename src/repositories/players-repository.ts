@@ -83,12 +83,17 @@ const database: PlayerModel[] = [
   }
 ]
 
-
-
 export const findAllPlayers = async (): Promise<PlayerModel[]> => {
   return database
 }
 
 export const findPlayById = async (id:number): Promise<PlayerModel | undefined> => {
-  return database.find(player => player.id === id)
+  return database.find((player) => player.id === id)
 }
+
+export const addPlayer = async (player: PlayerModel): Promise<PlayerModel> => { 
+  const newId = database.length > 0 ? database[database.length - 1].id + 1 : 1;
+  const newPlayer = { ...player, id: newId };
+  database.push(newPlayer);
+  return newPlayer;
+};

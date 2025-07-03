@@ -10,7 +10,7 @@
 
 ## Stacks
 - [Node](https://nodejs.org/docs/latest/api/)
-- [Typescript](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
+- [Typescript](https://www.typescriptlang.org/docs/)
 - [Express](https://www.npmjs.com/package/express)
 - [Dotenv](https://www.npmjs.com/package/dotenv)
 - [Http Status Code](https://www.npmjs.com/package/http-status-codes)

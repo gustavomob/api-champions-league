@@ -16,6 +16,7 @@
   "license": "ISC",
   "description": "API da Champions League com Node.js e Express",
   "devDependencies": {
+    "@types/cors": "^2.8.19",
     "@types/express": "^5.0.3",
     "ts-node": "^10.9.2",
     "tsup": "^8.5.0",
@@ -23,6 +24,7 @@
     "typescript": "^5.8.3"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^17.0.1",
     "express": "^5.1.0",
     "http-status-codes": "^2.3.0"

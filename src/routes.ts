@@ -24,7 +24,6 @@ router.patch("/players/:id", updatePlayerController)
 router.get("/players", getPlayerController)
 router.post("/players", postPlayerController)
 
-
 router.get("/clubs", getClubController)
 router.post("/clubs", postClubController)
 
